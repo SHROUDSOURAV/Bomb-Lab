@@ -47,7 +47,7 @@ I passed **"hello"** as the input string first. You can clearly see from the bel
 - **Reference String** -> **Border relations with Canada have never been better.** Its better to examine the **rsi** register using `x/s $rsi` in gdb.
 
 
-![[img1.png]]
+![Phase 1 Image](./Images/img1.png)
 
 Honestly, speaking you can just pass the correct string and defuse phase 1 flag , but I recommend to give the wrong string and check how the code logic works to rectify how your input string is wrong. 
 
