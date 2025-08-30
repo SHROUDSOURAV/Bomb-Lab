@@ -1,6 +1,6 @@
 - For getting into phase 3 you need to complete phase 2 first.
 - To enter phase 3 give the passing phrase for phase 1 and phase 2.
-- Its better to store the passing phrases for each level into a single file and run it instead of manually typing in each time.
+- Its better to store the passing phrases for each level into a single file and run it instead of manually typing it each time.
 
 
 ## phase_3 disassembly
