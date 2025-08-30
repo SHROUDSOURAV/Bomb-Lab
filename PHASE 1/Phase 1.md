@@ -26,7 +26,7 @@ else if (command-line-argument == 1) {
 2. Input string is passed as the **argument to phase_1**.
 3. Phase 1 compares the input with a **hidden reference string** in memory.
 
-## Phase 1 Disassembly
+## phase_1 disassembly
 
 ```gdb
 0x0000000000400ee0 <+0>:     sub    rsp,0x8
@@ -51,7 +51,7 @@ I passed **"hello"** as the input string first. You can clearly see from the bel
 
 Honestly, speaking you can just pass the correct string and defuse phase 1 flag , but I recommend to give the wrong string and check how the code logic works to rectify how your input string is wrong. 
 
-## strings_not_equal Disassembly
+## strings_not_equal disassembly
 
 ```gdb
    0x0000000000401338 <+0>:     push   r12
@@ -95,7 +95,7 @@ Honestly, speaking you can just pass the correct string and defuse phase 1 flag 
 ```
 
 
-## strings_length Disassembly
+## strings_length disassembly
 
 ```gdb
    0x000000000040131b <+0>:     cmp    BYTE PTR [rdi],0x0
